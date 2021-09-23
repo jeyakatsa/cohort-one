@@ -1,9 +1,11 @@
 # Ethereum Capacity Improvents:
 
-## Project Focus: Altair -- Minimal Light Client
+## Project Focus: Altair -- Minimal Light Client Prototype Build
 
 ### Phase 0 (current):
 - Lodestar: https://lodestar.chainsafe.io/
+- Lodestar (Basic Contributions): https://chainsafe.github.io/lodestar/contributing/
+- Lodestar (Command-Lines): https://chainsafe.github.io/lodestar/reference/cli/
 - Beacon Api Direct Link: https://ethereum.github.io/beacon-APIs/
 - Beacon Apis: https://github.com/ethereum/beacon-APIs
 - Bootstrapping Beacon Light Chain Client: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
