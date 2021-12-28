@@ -1,11 +1,33 @@
-## Project Dive-in (Update 1):
-### Altair - Minimal Light Client Prototype Build 
-#### ([Link to Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype))
+# Project Dive-in (Update 1):
+## [New-ERC Token Proposal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
 
-#### Daily Updates:
-- [Saturday 11/20/21] Started work on Utilities (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java).
-LightClientStore completed (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientStore.java).
-LightClientUpdate completed (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientUpdate.java). SyncCommittee fully completed (https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/SyncCommittee.java).
+## Altair - Minimal Light Client Prototype Build 
+### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
+
+#### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
+#### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
+
+_________________________________________________________________________ 
+
+#### Daily Updates (October 2021 - December 2021):
+- [Saturday 12/4/21]: Started work on ZeroHash function within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class. Eclipse removed as coding tool from [Readme](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md) & [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view) (as was the primary arbiter of compilation issues for IntelliJ). [Light-Client Server "Module"](https://github.com/jeyakatsa/teku/tree/master/light-client) refactored from Eclipse for IntelliJ and all import issues resolved via [gradle.build](https://github.com/jeyakatsa/teku/blob/master/light-client/build.gradle). IntelliJ compilation issue resolved, solution recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Friday 12/3/21]: New trial & error approach being implemented to resolve compilation issues, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Thursday 12/2/21]: Continuing diagnosis of IntelliJ issue.
+- [Wednesday 12/1/21] Working on redirecting Gradle specified location, progress & discovery recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Tuesday 11/30/21] Tried implementing `.gradle` into variable to resolve IntelliJ compilation issue, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Monday 11/29/21] Currently *Redirecting Environmental Variables* to fix IntelliJ compilation issue, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Sunday 11/28/21]: Currently *self diagnosing* IntelliJ compilation issue, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md). 
+- [Saturday 11/27/21] IntelliJ refusing to reveal compilation errors while building, cannot continue build until problem resolved. *Currently in conversation with Teku team* as well as *a self diagnosis* to resolve. 
+- [Friday 11/26/21] "Generic Arrays" not supported within Java, "ArrayLike" solution refactored, results recorded: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md), ArrayLike class deleted. Downloaded/Installed new IDE (IntelliJ) to match with Teku team specifics, mentioned [here](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md).
+- [Thursday 11/25/21] "ArrayLike" function problem solved, results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md). Moving onto refactoring [ArrayLike class](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/ArrayLike.java) for Utilities class.
+- [Wednesday 11/24/21] All possible classes tested (within SSZ), results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Tuesday 11/23/21] Search completed for "ArrayLike" function within Ssz packages, results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Monday 11/22/21] Search for "ArrayLike" function continues within Teku client, results recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md).
+- [Sunday 11/21/21] Continuing search for "ArrayLike" function within Teku client recorded here: [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md). Conversating with the Teku team on Discord to expediate the process.
+- [Saturday 11/20/21] Created [R&D Technical Paper](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/Teku-Light-Client-Server-R%26D.md) to help speed up problem solving issues while building the server.
+Started work on [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java).
+Completed [LightClientStore](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientStore.java).
+Completed [LightClientUpdate](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientUpdate.java). Fully completed [SyncCommittee](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/SyncCommittee.java).
 - [Friday 11/19/21] Started work on a Step-By-Step Build Process Techincal Post (for future Cohort that would like to follow/build along the process) https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view.
 - [Thursday 11/18/21] All functions found and recorded within Lodestar-Light-Client-Build-Reference (*Condensed into Step-By-Step process (https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)*). Added more server reference reviews (https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/blob/main/README.md). In conversation on Discord with the Teku team at Consensys to find a more efficient proposal for the build.
 - [Tuesday 11/16/21] Double check completed (function not found), seeking help through Chainsafe #light-client Discord.
