@@ -1,18 +1,33 @@
 # Project Dive-in (Update 2):
 
-## [New-ERC Token Proposal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
+## New-ERC Token
+### The Proposal: [New-ERC Token Propoal](https://ethresear.ch/t/a-new-erc-token-proposal/11540)
+#### The EIP: [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md)[number to be determined]
+#### The Research & Development process: [New-ERC Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md)
+#### The Work: [New-ERC Token Build](https://github.com/jeyakatsa/New-ERC-Token)
+_________________________________________________________________________
 
 ## Altair - Minimal Light Client Prototype Build 
 ### [Light-Client Custom Token Creation Proposal](https://ethresear.ch/t/light-client-custom-token-creation-proposal/11433)
-
 #### The Research & Development process: [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 #### The Work: [Prototype Server & Demo](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype)
-
 _________________________________________________________________________ 
 
 #### Daily Updates (December 2021 - Present):
+- [Saturday 1/8/21]: Added headline, inheritance and security considerations into [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). First draft completed and pull requested here: [EIP-XXXX Pull Request](https://github.com/ethereum/EIPs/pull/4649). Researching how to create smart-contracts on Ethereum using Java (as the first method of action), results/findings recorded: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md). Started building [Java Abstraction Layer](https://github.com/jeyakatsa/New-ERC-Token-Java-Abstraction).
+- [Friday 1/7/21]: Minting, exchanging & burning info added within [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md).
+- [Thursday 1/6/21]: Added *Solidity-to-Java* code example within [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). Added Roadmap & Intro-to-Smart-Contracts into Research & Development notes: [New-ERC-Token R&D](https://github.com/jeyakatsa/New-ERC-Token/blob/main/R&D.md).
+- [Wednesday 1/5/22]: Continuing work on [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md).
+- [Tuesday 1/4/22]: Started working on a new EIP for the new ERC token standard proposed, [EIP-XXXX](https://github.com/jeyakatsa/EIPs/blob/master/EIPS/eip-XXXX.md). 
+- [Monday 1/3/22]: Transitioned into working on New-ERC Token, new notes recorded: [New-ERC Token Notes](https://github.com/jeyakatsa/New-ERC-Token/blob/main/Notes.md).
+- [Sunday 1/2/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md)..
+- [Saturday 1/1/22]: Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
+- [Friday 12/31/21]: Removed `bls` dependency from [build.gradle](https://github.com/jeyakatsa/teku/blob/master/light-client/build.gradle). Continuing to solve/build `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md). 
+- [Thursday 12/30/21]: Changed [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface into a class, added constructor and altered other methods in order to properly sync with new Teku updates.
+- [Wednesday 12/29/21]: Currently solving/building `return` method for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
+- [Tuesday 12/28/21]: `pubkeys` issue solved within [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Monday 12/27/21]: Continuing process of `pubkeys` issue solving, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
-- [Sunday 12/26/21]: Solving `pubkeys` issue for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) class, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
+- [Sunday 12/26/21]: Solving `pubkeys` issue for [DeserializePubkeys](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/DeserializePubkeys.java) interface, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Saturday 12/25/21]: Created [ToBlockHeader](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/ToBlockHeader.java) class to solve Java "returning classes" issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Friday 12/24/21]: Started working on `toBlockHeader` function and solved `.block` issue within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class, now working on Java "returning classes" issue, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
 - [Thursday 12/23/21]: `getParticipantPubkeys()` function completed within [Utilities](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/Utilities.java) class. `.push` issue solved, results recorded: [Light-Client-R&D](https://github.com/jeyakatsa/Altair----Minimal-Light-Client-Prototype/edit/main/Teku-Light-Client-Server-R&D.md).
